@@ -92,7 +92,7 @@ class XttsConfig(BaseTTSConfig):
     )
 
     # inference params
-    temperature: float = 0.85
+    temperature: float = 0.86
     length_penalty: float = 1.0
     repetition_penalty: float = 2.0
     top_k: int = 50
@@ -100,7 +100,7 @@ class XttsConfig(BaseTTSConfig):
     num_gpt_outputs: int = 1
 
     # cloning
-    gpt_cond_len: int = 12
-    gpt_cond_chunk_len: int = 4
-    max_ref_len: int = 10
+    gpt_cond_len: int = 22
+    gpt_cond_chunk_len: int = 22
+    max_ref_len: int = 20
     sound_norm_refs: bool = False
