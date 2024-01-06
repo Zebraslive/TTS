@@ -239,7 +239,7 @@ if __name__ == "__main__":
             num_epochs =  gr.Slider(
                 label="Number of epochs:",
                 minimum=1,
-                maximum=100,
+                maximum=300,
                 step=1,
                 value=args.num_epochs,
             )
@@ -260,7 +260,7 @@ if __name__ == "__main__":
             max_audio_length = gr.Slider(
                 label="Max permitted audio size in seconds:",
                 minimum=2,
-                maximum=20,
+                maximum=65,
                 step=1,
                 value=args.max_audio_length,
             )
